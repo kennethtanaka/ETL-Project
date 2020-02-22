@@ -1,7 +1,7 @@
 # Life Expectancy by country and US foreign aid provided 2000-2015
 
 ## Introduction
-As you can read from the title, the table we built is designed to provide the life expectancy of a country along with the amount of US foreign aid it provides within that same year. The title is intensionally long so as to be descriptive, so when uploaded on a website like [data.world](https://data.world/) or [Kaggle](https://www.kaggle.com/) it would be easy to identify the type of data it contains. We will now go through our **E**xtract, **T**ransform and **L**oad process.
+As you can read from the title, the table we built is designed to provide the life expectancy of a country along with the amount of US foreign aid it provides within that same year. The title is intentionally long so as to be descriptive, so when uploaded on a website like [data.world](https://data.world/) or [Kaggle](https://www.kaggle.com/) it would be easy to identify the type of data it contains. We will now go through our **E**xtract, **T**ransform and **L**oad process.
 
 ## Extract
 Life Expectancy: Original file name “Life Expectancy by Country and Year (2000 - 2015)”, CSV File, found on Kaggle, address: https://www.kaggle.com/kumarajarshi/life-expectancy-who
