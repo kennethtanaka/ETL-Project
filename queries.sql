@@ -1,5 +1,6 @@
 --Create table to load cleaned life expectancy data into.
 CREATE TABLE life_expectancy (
+index INT,
 country VARCHAR,
 year INT,
 status TEXT,
@@ -14,7 +15,7 @@ hiv_aids DECIMAL,
 gdp DECIMAL,
 population BIGINT,
 schooling INT,
-country_year VARCHAR PRIMARY KEY
+PRIMARY KEY (country, year)
 
 );
 
@@ -22,14 +23,12 @@ country_year VARCHAR PRIMARY KEY
 
 --Create table to load cleaned us aid data.
 CREATE TABLE us_aid (
-country_id VARCHAR,
+index INT,
 country_name VARCHAR, 
-region_name VARCHAR,
-income_group_name VARCHAR,
 fiscal_year INT,
 current_amount BIGINT,
 constant_amount BIGINT,
-country_year VARCHAR PRIMARY KEY
+PRIMARY KEY (country_name, fiscal_year)
 
 );
 
@@ -37,9 +36,10 @@ country_year VARCHAR PRIMARY KEY
 --Left join life_expectancy and us_aid. Keep all values from life_expectancy.
 
 SELECT l.country, l.year, l.status, l.life_expectancy, l.adult_mortality, l.infant_deaths, l.percentage_expenditure, l.measles, l.bmi, 
-    l.under_five_death, l.hiv_aids, l.gdp, l.population, l.schooling, u.country_id, u.country_name, u.region_name, u.income_group_name, 
+    l.under_five_death, l.hiv_aids, l.gdp, l.population, l.schooling, u.country_name,
     u.fiscal_year, u.current_amount, u.constant_amount
 FROM life_expectancy AS l
 LEFT JOIN us_aid AS u
-ON l.country_year = u.country_year;
+ON l.country = u.country_name and
+l.year = u.fiscal_year;
 
