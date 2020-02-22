@@ -43,6 +43,5 @@ l.year = u.fiscal_year
 ;
 
 
---export to csv
-COPY joined TO 'joined.csv' DELIMITER ',' CSV HEADER;
+
 
