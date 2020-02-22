@@ -20,7 +20,7 @@ The file itself was over 600MB, which cannot be uploaded into GitHub, so using P
 
 ![Dates](Images/date_clean.png)
 
-However, we learned it was still too large for Git Hub, so did had to decrease the size further. Similar to the Life Expectancy data we used Pandas in Python on Jupyter Notebook to pull only the columns we wanted, finally providing us with a CSV file that was a mere 61MB and could be uploaded into GitHub – **called us_aid_reduced.csv**; which you’ll find in our final Jupyter Notebook.
+However, we learned it was still too large for Git Hub, so did had to decrease the size further. Similar to the Life Expectancy data we used Pandas in Python on Jupyter Notebook to pull only the columns we wanted, finally providing us with a CSV file that was a mere 61MB and could be uploaded into GitHub – called **us_aid_reduced.csv**; which you’ll find in our final Jupyter Notebook.
 
 ![Columns](Images/column_clean.png)
 
