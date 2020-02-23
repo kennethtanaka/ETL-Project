@@ -5,8 +5,10 @@ As you can read from the title, the table we built is designed to provide the li
 
 ## Extract
 Life Expectancy: Original file name “Life Expectancy by Country and Year (2000 - 2015)”, CSV File, found on Kaggle, address: https://www.kaggle.com/kumarajarshi/life-expectancy-who
+* Data for Life expectancy came from a trusted source; World Health Organization (WHO). The data included economic as well as health data for 193 countries for the years 2000 - 2015, which we believe provided a rich data set.
 
 US Aid: Original File name “us_foreign_aid_complete”, CSV File, found on USAID.gov website, address: https://www.usaid.gov/results-and-data/data-resources
+* The US Aid data came directly from the USAID website with in-depth data-points on country, region and humanitarian-type information for over 170 years. This actually became a hinderance considering the file size, but aligned well with our data from from WHO's life expectancy index.
 
 ## Transform
 
@@ -33,7 +35,7 @@ After some deliberation we decided to use a relational table to load the data. T
 
 ### Final Table
 
-The final table **Life Expectancy by county and US foreign aid provided 2000-2015** shortened to file name life_expectancy_us_aid_2000_2015.csv was created with the following columns ()
+The final table **Life Expectancy by county and US foreign aid provided 2000-2015** shortened to file name **life_aid_2000_2015.csv** was created with the following columns ()
 
 This data was chosen for the various use-cases that can be extracted, including:
 
