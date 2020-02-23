@@ -26,7 +26,7 @@ However, we learned it was still too large for Git Hub, so did had to decrease t
 
 ![Columns](Images/aid_column_clean.png)
 
-From there, each country was broken-down many times per year into each aid category that was provided. To simplify our data for later users we had to group each country and year to summate the total US Aid provided per year. This can be found in our final Jupyter Notebook.
+From there, each country was broken-down many times per year into each aid category that was provided. To simplify our data for later users we had to group each country and year to summate the total US Aid provided per year. This can be found in our final Jupyter Notebook. Additionally, for all countries we worked to create uniformity accross tables by modifying in Python to change all to lowercase, remove spaces, remove special characters, and remove any "additional" data in in parenthesis following country name.
 
 ## Load
 
