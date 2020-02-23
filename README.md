@@ -35,7 +35,7 @@ After some deliberation we decided to use a relational table to load the data. T
 
 ### Final Table
 
-The final table **Life Expectancy by county and US foreign aid provided 2000-2015** shortened to file name **life_aid_2000_2015.csv** was created with the following columns: country	year, status, life_expectancy, adult_mortality, infant_deaths, percentage_expenditure, measles, bmi, under_five_death, hiv_aids, gdp, population, schooling, current_amount
+The final table **Life Expectancy by county and US foreign aid provided 2000-2015** shortened to file name **life_aid_2000_2015.csv** was created with the following columns: country	year, status, life_expectancy, adult_mortality, infant_deaths, percentage_expenditure, measles, bmi, under_five_death, hiv_aids, gdp, population, schooling, current_amount.
 
 This data was chosen for the various use-cases that can be extracted, including:
 
